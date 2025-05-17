@@ -177,3 +177,52 @@
     }
   }
   
+  .project-highlight {
+    position: relative;
+    background: url('images/background-image.jpg') no-repeat center center/cover;
+    padding: 4rem 0;
+    color: white;
+  }
+  
+  .gradient-overlay {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1));
+    padding: 2rem;
+  }
+  
+  .project-card {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .project-card img {
+    max-width: 300px;
+    border-radius: 10px;
+  }
+  
+  .project-content h2 {
+    margin: 0 0 0.5rem 0;
+    font-size: 2rem;
+  }
+  
+  .project-content .tag {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #ccc;
+  }
+  
+  @media (max-width: 768px) {
+    .project-card {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .project-card img {
+      max-width: 100%;
+    }
+  }
+  
